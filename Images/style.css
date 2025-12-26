@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.topsection{
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,1)), url(Netflix\ imag.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(10px);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding: 20px;
+}
+header h1{
+    color: red;
+}
+header button{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+header button:hover{
+background-color: ;
+background-color: rgb(193, 25, 25);
+}
+.hero{
+    color: white;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    margin: 200px auto;
+    text-align: center;
+}
+.hero h1{
+    font-size: 48px; 
+}
+.heroitem{
+    font-size: 25px;
+    font-weight: 600;
+}
+.button{
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 17px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(193, 25, 25);
+}
+span{
+    display: flex;
+    gap: 5px;
+}
+.hero input{
+    padding: 20px 100px;
+    background-color: transparent;
+    border: 1px solid rgb(151, 128, 128);
+    border-radius: 5px;
+}
+.hero input::placeholder{
+    color: rgb(187, 167, 167);
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(2, 2, 41);
+    height: 310vh;
+    color: white;
+}
+.trending{
+      display: flex;
+  gap: 50px;
+  margin: 0px 150px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section h2{
+    
+    font-size: 35px;
+padding-left: 150px;
+padding-top: 50px;
+}
+.trendingmovie img{
+   width: 200px;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.trendingmovie:hover{
+    transform: scale(1.04);
+    transition-duration: 1s;
+}
+.trendingmovie{
+      min-width: 180px;
+  height: 260px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.cardtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+  
+}
+.main{
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.maintext{
+    font-size: 35px;
+padding-left: 150px;
+padding-top: 50px;
+   
+}
+
+.maincards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} 
+.card{
+    width: 19%;
+    height: 45vh;
+    background-color: rgba(25, 87, 141, 0.345);
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+ padding: 10px;
+ border-radius: 5px;
+    position: relative;
+
+}
+.cardimage{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.cardimage img{
+    width: 25%;
+    margin-left: 200px;
+}
+.scroll{
+    width: 30%;
+    margin-left: 100px;
+
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+}
+.article h2{
+margin-top: 70px;
+font-size: 33px;
+}
+.row_1{
+    display: flex;
+    background-color: rgb(56, 62, 63);
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+.row_1 p{
+    font-size: 30px;
+}
+.row_1:hover{
+    background-color: rgb(90, 87, 87);
+}
+.about{
+    
+    width: 55%;
+    /* border: 1px solid white; */
+margin: 100px auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 15px;
+}
+.aboutspan{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+.aboutinput{
+    padding: 10px 200px;
+    background-color: transparent;
+    border: 1px solid rgb(113, 106, 106);
+}
+.tagspart{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+a{
+    color: rgb(194, 199, 199);
+    font-size: 18px;
+    cursor: pointer;
+}
+.alltags{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.tags_1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+select{
+    
+    width: fit-content;
+    margin: 40px 140px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    margin: 00px 140px;
+
+}
